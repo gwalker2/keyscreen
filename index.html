@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="gw.css">
+<title>Final Project v6.4.9:45</title>
+<script>
+
+// https://www.w3schools.com/jsref/event_clientx.asp
+
+function pressedKey () {
+	
+	var x = event.clientX;     // Get the horizontal coordinate
+	var y = event.clientY;     // Get the vertical coordinate
+	var coor = "X coords: " + x + ", Y coords: " + y;
+
+	console.log("you pressed a key"  + coor    );
+} 
+// end of function 
+
+	<!-- // onscreen keyboard
+	// Picture of a keyboard that types when you click on a key with the mouse
+		// Could work by linking up the area its typed in to the keyboard.
+
+</script>
+</head>
+
+<body>
+<img  onclick=pressedKey()  src="keyboard-finalproj.png" alt="Keyboard" class="center">
+
+
+<div>
+	<center><center>
+	<h1>On-screen Keyboard</h1>
+	</center>
+	<hr>
+</div>
+
+<div>
+    <label>Text goes here:</label>
+    <input type = "text"
+        id = "myText"
+        value = "" />
+</div>	
