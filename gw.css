@@ -1,0 +1,36 @@
+img {
+float: left;
+clear: both;
+}
+
+div {
+	float: left;
+	clear: both;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/*#container {
+	margin-top: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	height: 600px;
+	border: solid;
+	border-radius: 15px;
+	background-color: #008B8B;
+	color: blue;
+	padding: 20px 18px 10px 18px;
+}
+
+h1 {
+	font-size: 25pt;
+	font-family: 'Georgia';
+	color: white;
+	text-align: center;
+}*/
